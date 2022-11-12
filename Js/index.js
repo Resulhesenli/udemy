@@ -23,26 +23,72 @@
 
     // console.log(`https://someurl.com/${category}/5`);
 
-    let numberOfFilms = +prompt("Сколько фильмов вы уже посмотрели", "");
+    // let numberOfFilms = +prompt("Сколько фильмов вы уже посмотрели", "");
     
     
-    const personalMovieDB = {
-        count: numberOfFilms,
-        movies: {},
-        actors: {},
-        genres: [],
-        privat: false
-    };
+    // const personalMovieDB = {
+    //     count: numberOfFilms,
+    //     movies: {},
+    //     actors: {},
+    //     genres: [],
+    //     privat: false
+    // };
     
-    let lastMovie = prompt("Один из последних просмотренных фильмов?", "");
-    let movieIdb = +prompt("Насколько оцените его?", "");
+    // let lastMovie = prompt("Один из последних просмотренных фильмов?", "");
+    // let movieIdb = +prompt("Насколько оцените его?", "");
     
-    personalMovieDB.movies[lastMovie] = movieIdb;
+    // personalMovieDB.movies[lastMovie] = movieIdb;
 
-    console.log(personalMovieDB);
+    // console.log(personalMovieDB);
 
    
     // movies['lastmovie' + ':' + 'movieIdb'];
 
 
     // console.log(personalMovieDB);
+
+
+    // let hamburger;
+    // const fries = NaN;
+    // const cola = 0;
+    // const nuggets = 2;
+    
+    // if (hamburger && cola || fries === 3 && nuggets) {
+    // console.log('Done!')
+    // }
+
+    // console.log((hamburger && cola || fries === 3 && nuggets))
+
+
+
+    // for (let i = 2; i <= 16; i++) {
+    //     if (i % 2 === 0) {
+    //         continue;
+    //     } else {
+    //         console.log(i);
+    //     }
+    // }
+    
+    // let i = 2;
+    // while(i <= 16) {
+        
+    //     if (i % 2 === 0) {
+    //         continue;
+    //     } else {
+    //         i++;
+    //         console.log(i);
+    //     }
+    // }
+    
+    
+    // function fifthTask() {
+    //     const arrayOfNumbers = [];
+    
+    //     // Пишем решение вот тут
+    //      for(let i = 5; i < 11; i++) {
+    //                 arrayOfNumbers[i-5] = i;
+    //             }
+    //             console.log(arrayOfNumbers);
+    //     // Не трогаем
+    //     return arrayOfNumbers;
+    // }
